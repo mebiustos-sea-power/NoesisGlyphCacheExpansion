@@ -1,0 +1,6 @@
+<Project>
+  <PropertyGroup>
+    <SeaPowerDir>C:\path\to\Sea Power</SeaPowerDir>
+    <AnchorChainDir>C:\path\to\steamapps\workshop\content\1286220\3380210757</AnchorChainDir>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,9 @@
+**/bin/
+**/obj/
+dist/
+Directory.Build.local.props
+.vs/
+*.user
+*.suo
+*.dll
+*.pdb
