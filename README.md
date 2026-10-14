@@ -1,6 +1,6 @@
-# NoesisGUI Glyph Cache Expansion
+# Glyph Cache Expansion
 
-NoesisGUIの字形キャッシュを **4096×4096** に設定する、Sea Power向けAnchorChainプラグインです。言語に関係なく適用されます。
+Sea Powerの字形キャッシュを **4096×4096** に設定する、AnchorChainプラグインです。言語に関係なく適用されます。
 
 字形キャッシュは、描画する文字の形を画像として保持する領域です。2048×2048と比べて画像領域の面積は4倍になります。キャッシュを拡大すると、環境によっては文字欠けが改善する可能性があります。このMODは文字欠けの解消を保証するものではありません。
 
@@ -11,7 +11,7 @@ NoesisGUIの字形キャッシュを **4096×4096** に設定する、Sea Power�
 1. [AnchorChainの導入手順](https://seapower-modders.github.io/AnchorChain/install-anchor-chain.html)に従い、ACPreloaderを手動で導入します。BepInExはACPreloaderに含まれています。
 2. [Anchor Chain](https://steamcommunity.com/sharedfiles/filedetails/?id=3380210757)を購読します。
 3. Workshop公開後は、このMODを購読します。ローカル版を使う場合は、配布フォルダ `NoesisGlyphCacheExpansion` を `Sea Power_Data/StreamingAssets` に配置します。
-4. ゲーム内のMOD管理で **「NoesisGUI Glyph Cache Expansion」** を有効にし、ゲームを完全に終了して再起動します。
+4. ゲーム内のMOD管理で **「Glyph Cache Expansion」** を有効にし、ゲームを完全に終了して再起動します。
 
 AnchorChainはMOD管理のチェック状態とは別にDLLを読み込みます。このプラグインは起動時に自身のチェック状態を確認し、有効な場合だけキャッシュ設定を変更します。有効・無効の変更後は再起動してください。
 
@@ -53,7 +53,7 @@ NuGetパッケージは使いません。ゲームとローダーのDLLは利用
 
 - ビルド済み配布フォルダ: `dist/NoesisGlyphCacheExpansion`
 - `-InstallLocal` による配置先: `Sea Power_Data/StreamingAssets/NoesisGlyphCacheExpansion`
-- Workshopのタイトル案: **NoesisGUI Glyph Cache Expansion**
+- Workshopのタイトル案: **Glyph Cache Expansion**
 - タグ: **Scripting**
 - 必要アイテム: **Anchor Chain**（Workshop ID `3380210757`）
 - 説明文案: `WORKSHOP_DESCRIPTION.md`

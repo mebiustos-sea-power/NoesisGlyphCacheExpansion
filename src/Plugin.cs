@@ -6,11 +6,11 @@ using BepInEx.Logging;
 
 namespace NoesisGlyphCacheExpansion
 {
-    [ACPlugin(ModId, "NoesisGUI Glyph Cache Expansion", "1.0.0")]
+    [ACPlugin(ModId, "Glyph Cache Expansion", "1.0.0")]
     public sealed class Plugin : IAnchorChainMod
     {
         public const string ModId = "mebiustos.seapower.noesisglyphcacheexpansion";
-        private static readonly ManualLogSource Log = Logger.CreateLogSource("NoesisGUI Glyph Cache Expansion");
+        private static readonly ManualLogSource Log = Logger.CreateLogSource("Glyph Cache Expansion");
 
         public void TriggerEntryPoint()
         {
